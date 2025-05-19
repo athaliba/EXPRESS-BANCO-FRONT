@@ -1,0 +1,52 @@
+/* Register.css */
+.register-container {
+  max-width: 400px;
+  margin: 100px auto;
+  padding: 32px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.register-container h2 {
+  margin-bottom: 24px;
+  color: #333;
+}
+
+.register-container form {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.register-container input {
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+.register-container button {
+  padding: 10px;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.register-container button:hover {
+  background-color: #388e3c;
+}
+
+.erro {
+  color: red;
+  margin-top: 10px;
+  font-weight: bold;
+}
+
+.sucesso {
+  color: green;
+  margin-top: 10px;
+  font-weight: bold;
+}
